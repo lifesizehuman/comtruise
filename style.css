@@ -1,0 +1,337 @@
+
+body {
+	margin:0;
+	padding:0;
+	background: #ECDEED;
+	height:100%;
+}
+.everything {
+	padding:100px;
+	height:1630px;
+}
+
+/*.everything::after {
+	content:"";
+	clear:both;
+	display: block;
+}*/
+
+.album {
+	position: absolute;
+ 	left:45%;
+ 	transform-style: preserve-3d;
+/* 	height:100vh;*/
+}
+
+.box {
+	position: absolute;
+	width: 150px;
+	height: 6px;
+	background: #F75E40;
+}
+
+.box:nth-child(1) {
+	top:30px;
+}
+
+.box:nth-child(2) {
+	top:60px;
+}
+
+.box:nth-child(3) {
+	top:120px;
+}
+
+.box:nth-child(4) {
+	top:150px;
+}
+
+.box:nth-child(5) {
+	top:180px;
+}
+
+.box:nth-child(6) {
+	top:210px;
+}
+
+.box:nth-child(7) {
+	top:240px;
+}
+
+.box:nth-child(8) {
+	top:90px;
+	left:350px;
+}
+
+.box:nth-child(9) {
+	top:270px;
+	right:120px;
+}
+
+
+.box:nth-child(10) {
+	position:inherit;
+	top:1100px;
+	right:250px;
+}
+
+.box:nth-child(11) {
+	top:1130px;
+}
+
+.box:nth-child(12) {
+	top:1160px;
+}
+
+.box:nth-child(13) {
+	top:1190px;
+}
+
+.box:nth-child(14) {
+	top:1220px;
+	left:180px;
+}
+
+.box:nth-child(15) {
+	top:1250px;
+}
+
+.box:nth-child(16) {
+	top:1280px;
+}
+
+.box:nth-child(17) {
+	top:1310px;
+}
+
+.box:nth-child(18) {
+	top:1340px;
+}
+
+.box:nth-child(19) {
+	top:1370px;
+}
+
+.box:nth-child(20) {
+	top:1400px;
+	right:-50px;
+}
+
+.box:nth-child(21) {
+	top:1430px;
+	margin-bottom: 50px;
+}
+
+.bigbox {
+	position:relative;
+	background: #F75E40;
+	width:150px;
+	height:75px;
+	top:300px;
+}
+
+.littlebox {
+	width: 19px;
+	height: 19px;
+	top:75px;
+ background: #F75E40;
+ position:absolute;
+}
+
+.littlebox:nth-child(1) {
+	left:18.75px;
+}
+
+.littlebox:nth-child(2) {
+	left:56.25px;
+}
+
+.littlebox:nth-child(3) {
+	left:93.75px;
+}
+
+.littlebox:nth-child(4) {
+	left:131.25px;
+}
+
+.littlebox:nth-child(5) {
+	left:0;
+	top:94px;
+}
+
+.littlebox:nth-child(6) {
+	left:37.5px;
+	top:94px;
+}
+
+.littlebox:nth-child(7) {
+	left:75px;
+	top:94px;
+}
+
+.littlebox:nth-child(8) {
+	left:112.5px;
+	top:94px;
+}
+
+.littlebox:nth-child(9) {
+	left:18.75px;
+	top:113px;
+}
+
+.littlebox:nth-child(10) {
+	left:56.25px;
+	top:113px;
+}
+
+.littlebox:nth-child(11) {
+	left:93.75px;
+	top:113px;
+}
+
+.littlebox:nth-child(12) {
+	left:131.25px;
+	top:113px;
+}
+
+.littlebox:nth-child(13) {
+	left:0;
+	top:132px;
+}
+
+.littlebox:nth-child(14) {
+	left:37.5px;
+	top:132px;
+}
+
+.littlebox:nth-child(15) {
+	left:75px;
+	top:132px;
+}
+
+.littlebox:nth-child(16) {
+	left:112.5px;
+	top:132px;
+}
+
+.yellowbox {
+	position:absolute;
+	top:490px;
+	height:150px;
+	width:150px;
+	background:#FEC778;
+}
+
+.line {
+	position:absolute;
+    width: 205px;
+    left:-27px;
+    border-bottom: 17px solid #F75E40;
+    transform-origin: 50% 50%;
+    transform:rotate(45deg); 
+    top: 67px;
+    border-radius: 100px;
+}
+
+.lavenderBox {
+	width: 18px;
+    height: 18px;
+    background: #ECDEED;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    z-index: 3;
+    /* transform-origin: 50% 50%; */
+    transform: rotate(45deg);
+}
+
+.smallBlueBox {
+	position:absolute;
+	width:150px;
+	height:37.5px;
+	background: #8DC1E9;
+	top:700px;
+}
+
+.bluePillar {
+	position:absolute;
+	width:13.63px;
+	height:37.5px;
+	top:37.5px;
+	background: #8DC1E9;
+}
+
+.bluePillar:nth-child(1) {
+	left:13.6px;
+}
+
+.bluePillar:nth-child(2) {
+	left:40.8px;
+}
+
+.bluePillar:nth-child(3) {
+	left:68px;
+}
+
+.bluePillar:nth-child(4) {
+	left:95.2px;
+}
+
+.bluePillar:nth-child(5) {
+	left:122.4px;
+}
+
+.bigBlueBox {
+	position:absolute;
+	width:150px;
+	height:75px;
+	background: #8DC1E9;
+	top:775px;
+}
+
+.indigobox {
+	position:absolute;
+	top:920px;
+	height:150px;
+	width:150px;
+	background: #625EA2;
+	z-index: 1;
+}
+
+.smallRedBlob {
+background: #F75E40;
+height:30px;
+width:30px;
+border-radius: 100px;
+position: absolute;
+z-index: 2;
+top:25px;
+left:25px;
+}
+
+.bigRedBlob {
+background: #F75E40;
+height:60px;
+width:60px;
+z-index: 2;
+border-radius: 100px;
+position:absolute;
+left:67px;
+top:67px;
+}
+
+.artist, .title {
+font-family:sans-serif;
+	color: #F75E40;
+	font-weight: 600;
+	letter-spacing: -3px;
+	font-size: 2em;
+}
+
+.artist {
+	float:left;
+}
+
+.title {
+	float:right;
+}
