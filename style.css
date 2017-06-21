@@ -65,14 +65,14 @@ body {
 
 .box:nth-child(9) {
 	top:270px;
-	right:120px;
+	right:280px;
 }
 
 
 .box:nth-child(10) {
 	position:inherit;
 	top:1100px;
-	right:250px;
+	right:450px;
 }
 
 .box:nth-child(11) {
